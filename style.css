@@ -1,0 +1,131 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End Reset CSS */
+
+body {
+	width: 960px;
+	max-width: 100%;
+	margin: auto;
+	font-size: 17pt;
+}
+
+h1{font-size: 2.4em;}h2{font-size: 2.2em;}h3{font-size: 2em;}h4{font-size: 1.8em;}h5{font-size: 1.6;}h6{font-size: 1.4em;}
+h1, h2, h3, h4, h5, h6, p {
+	line-height: 140%;
+}
+p{padding-bottom: 1em;}
+
+.title {
+	text-align: center;
+}
+#navigation {
+	text-align: center;
+	margin-top: 0px;
+	z-index: 99;
+
+}
+.image-nav {
+	position: relative;
+	height: 400px;
+	width: 960px;
+	max-width: 100%;
+	max-height: 100%;
+}
+.image-box {
+	position: absolute;
+	z-index: 0;
+}
+.image-box > img {
+	height: 400px;
+	width: 100%;
+}
+.list-nav{
+	padding-top: 10px;
+	background: white;
+	padding-bottom: 50px;
+	background: url(img/trans.png) repeat-x;
+	
+}
+ul.inline-nav > li {
+	display: inline-block;
+}
+ul.inline-nav > li:first-child {
+	float: left;
+}
+ul.inline-nav > li:last-child {
+	float: right;
+}
+ul.inline-nav > li > ul > li{
+	display: inline-block;
+}
+.section {
+	clear: both;
+
+}
+.text-box {
+	max-width: 100%;
+	width: 960px;
+}
+.fancy-header {
+	float: left;
+	width: 150px;
+	max-width: 15.625%;
+}
+.body-text {
+	float: right;
+	width: 790px;
+	max-width: 80%;
+	padding-bottom: 30px;
+}
+
+
+
+
+
